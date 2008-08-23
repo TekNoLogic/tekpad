@@ -1,0 +1,13 @@
+tekPad is a tiny in-game lua editor inspired by "TinyPad":http://www.wowinterface.com/downloads/info4417-TinyPad.html (yes, my pad is tiny-er).  Basically I stripped out the multi-page stuff because I found that I only used the last page of code... thus I had a bunch of old snippets of code I was never going to use again floating around in my savedvars.  I also removed the sarching and frame moving resizing...
+
+In short, this is an editbox with a button to run the lua you input, nothing more.
+
+To access the panel you can use the "LDB launcher":http://github.com/tekkub/libdatabroker-1-1/wikis or the commands @/pad@ and @/tekpad@
+
+This addon uses "AddonLoader":http://www.wowace.com/wiki/AddonLoader if present to defer loading until the launcher or slash command are used.
+
+h2. Links
+
+<b>Visit "my site":http://www.tekkub.net/addons/tekPad for more info.<br>
+Please report all bugs and feature requests to my "Google Code":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:tekPad&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary tracker<br>
+Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist.</b>
