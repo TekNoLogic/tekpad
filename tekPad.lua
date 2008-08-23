@@ -91,9 +91,6 @@ function SlashCmdList.TEKPADSLASH() ShowUIPanel(panel) end
 
 local ldb = LibStub and LibStub:GetLibrary("LibDataBroker-1.1", true)
 if ldb then
-	ldb:NewDataObject("tekPad", {
-		type = "launcher",
-		icon = "Interface\\Icons\\INV_Misc_Note_01",
-		OnClick = SlashCmdList.TEKPADSLASH,
-	})
+	local dataobj = ldb:GetDataObjectByName("tekPad") or ldb:NewDataObject("tekPad", {type = "launcher", icon = "Interface\\Icons\\INV_Misc_Note_01"})
+	dataobj.OnClick = SlashCmdList.TEKPADSLASH
 end

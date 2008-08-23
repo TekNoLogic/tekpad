@@ -10,6 +10,10 @@
 
 ## SavedVariables: tekPadDB
 
+## LoadManagers: AddonLoader
+## X-LoadOn-Slash: /tekpad, /pad
+## X-LoadOn-LDB-Launcher: Interface\Icons\INV_Misc_Note_01
+
 LibStub.lua
 tekPanelAuction.lua
 
