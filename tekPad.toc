@@ -10,5 +10,7 @@
 
 ## SavedVariables: tekPadDB
 
+LibStub.lua
 tekPanelAuction.lua
+
 tekPad.lua
